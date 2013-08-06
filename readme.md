@@ -6,7 +6,7 @@
 ## 使用说明 ##
  * 由静态常量CACHE_CLASS_NAME定义框架使用的缓存机制实现类。
  * 缓存机制实现类包括：
- 	* sinasaememcache：新浪SAE缓存机制实现类
+ 	* SinaSAEMemcache：新浪SAE缓存机制实现类
 
 ## 作者信息 ##
  * 电子邮件：peigong@foxmail.com

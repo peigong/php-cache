@@ -1,4 +1,6 @@
 <?php
+define('CACHE_TYPE_SINASAEMEMCACHE', 'SinaSAEMemcache');
+
 /**
  * 系统缓存实现机制的接口。
  */

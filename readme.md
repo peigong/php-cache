@@ -12,6 +12,8 @@
  	* CACHE_TYPE_SINASAEMEMCACHE：SinaSAEMemcache
 
 ## 版本的更新记录 ##
+### 0.0.2 ###
+ * 修订了判断常量和使用静态属性的BUG。
 ### 0.0.1 ###
  * 实现基本的框架机制，并实现新浪SAE缓存实现类。
 

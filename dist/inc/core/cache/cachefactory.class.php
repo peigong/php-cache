@@ -29,16 +29,16 @@ class CacheFactory{
         $clazz = '';
         if ($type && strlen($type) > 0) {
             $clazz = $type;
-        }else if (isset(CACHE_CLASS_NAME) && strlen(CACHE_CLASS_NAME) > 0) {
+        }else if (defined(CACHE_CLASS_NAME) && strlen(CACHE_CLASS_NAME) > 0) {
             $clazz = CACHE_CLASS_NAME;
         }
         if ($clazz && strlen($clazz) > 0) {
             $clazz = CACHE_CLASS_NAME;
-            if (!array_key_exists($clazz, self::dict)) {
+            if (!array_key_exists($clazz, self::$dict)) {
                 require_once(ROOT . "inc/core/cache/" . strtolower($clazz) . ".class.php");
-                self::dict[$clazz] = new $clazz();
+                self::$dict[$clazz] = new $clazz();
             }
-            $cache = self::dict[$clazz];
+            $cache = self::$dict[$clazz];
         }
         return $cache;
     } 

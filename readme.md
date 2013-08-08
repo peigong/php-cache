@@ -11,6 +11,10 @@
  * 缓存机制实现类枚举对应关系如下：
  	* CACHE_TYPE_SINASAEMEMCACHE：SinaSAEMemcache
 
+## 版本的更新记录 ##
+### 0.0.1 ###
+ * 实现基本的框架机制，并实现新浪SAE缓存实现类。
+
 ## 作者信息 ##
  * 电子邮件：peigong@foxmail.com
  * 微博地址：[http://weibo.com/u/3030510210](http://weibo.com/u/3030510210)

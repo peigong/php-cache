@@ -1,0 +1,27 @@
+{
+  "name": "php-cache",
+  "title": "PHP版本的缓存机制框架",
+  "description": "PHP版本的缓存机制框架",
+  "version": "0.0.1",
+  "homepage": "https://github.com/peigong/php-cache",
+  "author": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peigong/php-cache.git"
+  },
+  "bugs": "https://github.com/peigong/php-cache/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/peigong/php-cache/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+  },
+  "keywords": [],
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-copy": "~0.4.0",
+    "grunt": "~0.4.1"
+  }
+}

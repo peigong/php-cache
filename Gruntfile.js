@@ -13,14 +13,14 @@ module.exports = function(grunt) {
       ' Licensed <%= _.pluck(pkg.licenses, "type").join(", ") %> */\n',
     // Task configuration.
     clean: {
-      files: ['dest']
+      files: ['dist']
     },
     copy:{
       main:{
         files: [
-          {expand: true, src: ['readme.md'], dest: 'dest'},
-          {expand: true, src: ['version.md'], dest: 'dest'},
-          {expand: true, 'cwd': 'src/inc', src: ['**'], dest: 'dest/inc'}
+          {expand: true, src: ['readme.md'], dest: 'dist'},
+          {expand: true, src: ['version.md'], dest: 'dist'},
+          {expand: true, 'cwd': 'src/inc', src: ['**'], dest: 'dist/inc'}
         ]
       }
     }

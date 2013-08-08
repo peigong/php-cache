@@ -18,8 +18,6 @@ module.exports = function(grunt) {
     copy:{
       main:{
         files: [
-          {expand: true, src: ['readme.md'], dest: 'dist'},
-          {expand: true, src: ['version.md'], dest: 'dist'},
           {expand: true, 'cwd': 'src/inc', src: ['**'], dest: 'dist/inc'}
         ]
       }

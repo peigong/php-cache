@@ -1,8 +1,5 @@
 # PHP版本的缓存机制框架 #
 
-## 项目依赖 ##
-无。
-
 ## 使用说明 ##
  * 由静态常量CACHE_CLASS_NAME定义框架使用的缓存机制实现类。
  * 也可以在调用缓存机制工厂类时，根据需要指定特定的实现，如CacheFactory:create('SinaSAEMemcache');
@@ -12,6 +9,11 @@
  	* CACHE_TYPE_SINASAEMEMCACHE：SinaSAEMemcache
 
 ## 版本的更新记录 ##
+
+### 0.0.3 ###
+ * 遵循语义化版本规范[SemVer](http://semver.org)([中文](http://clientlab.github.io/studio/2013/11/16/semantic-versioning-2.0.0/))命名版本号。
+ * 发布为Bower模块。
+
 ### 0.0.2 ###
  * 修订了判断常量和使用静态属性的BUG。
 

@@ -1,0 +1,22 @@
+{
+  "name": "php-cache",
+  "version": "0.0.3",
+  "homepage": "https://peigong.github.com/php-cache",
+  "authors": [
+    "周培公 <peigong@foxmail.com>"
+  ],
+  "description": "PHP版本的缓存机制框架",
+  "main": "dist/inc/core/cache/cachefactory.class.php",
+  "keywords": [
+    "php",
+    "cache"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

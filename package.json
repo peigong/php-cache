@@ -2,8 +2,8 @@
   "name": "php-cache",
   "title": "PHP版本的缓存机制框架",
   "description": "PHP版本的缓存机制框架",
-  "version": "0.0.1",
-  "homepage": "https://github.com/peigong/php-cache",
+  "version": "0.0.3",
+  "homepage": "https://peigong.github.com/php-cache",
   "author": {},
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   ],
   "dependencies": {
   },
-  "keywords": [],
+  "keywords": ["php", "cache"],
   "devDependencies": {
     "grunt-contrib-clean": "~0.4.0",
     "grunt-contrib-copy": "~0.4.0",
